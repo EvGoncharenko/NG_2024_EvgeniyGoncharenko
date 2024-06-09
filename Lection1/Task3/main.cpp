@@ -12,13 +12,9 @@ int main ()
 
     if (zarplata < 1000){
         cout << "Rabotay bolshe";
-    }
-
-    if (zarplata < 1000000){
+    } else if (zarplata < 1000000){
         cout << "Horosho rabotaesh";
-    }
-
-    if (zarplata > 1000000){
+    } else if (zarplata > 1000000){
         cout << "Da ti milioner!";
     }
 
