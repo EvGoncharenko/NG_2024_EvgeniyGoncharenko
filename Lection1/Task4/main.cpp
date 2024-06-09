@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     char znak;
-    int fir = 0, sec = 0;
+    int fir = 0, sec = 0, num = 0;
 
     cout << "Enter sign: '+', '-', '*', '/', '2', 'V'. ";
     cin >> znak;
@@ -20,7 +20,7 @@ int main()
 
     } else if (znak == '2' || znak == 'V') {
         cout << "Enter your number: ";
-        cin >> fir;
+        cin >> num;
     }
 
     cout << "Your result: ";
@@ -39,10 +39,10 @@ int main()
         cout << fir / sec;
         break;
     case '2':
-        cout << fir * fir;
+        cout << pow(num,2);
         break;
     case 'V':
-        cout << sqrt(fir);
+        cout << sqrt(num);
         break;
     default:
         cout << "Oops. Sorry, this sign is not provided, choose any of the proposed ones.";
