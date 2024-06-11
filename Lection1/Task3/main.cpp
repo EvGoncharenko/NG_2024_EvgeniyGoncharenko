@@ -11,10 +11,16 @@ int main ()
     cin >> zarplata;
 
     if (zarplata < 1000){
-        cout << "Rabotay bolshe";
-    } else if (zarplata < 1000000){
         cout << "Horosho rabotaesh";
-    } else if (zarplata > 1000000){
+    }
+
+    if (zarplata > 1000){
+        if (zarplata < 100000){
+          cout << "Rabotay bolshe";
+        }
+    }
+
+    if (zarplata > 1000000){
         cout << "Da ti milioner!";
     }
 
