@@ -11,12 +11,12 @@ int main ()
     cin >> zarplata;
 
     if (zarplata < 1000){
-        cout << "Horosho rabotaesh";
+        cout << "Rabotay bolsheh";
     }
 
     if (zarplata > 1000){
         if (zarplata < 100000){
-          cout << "Rabotay bolshe";
+          cout << "Horosho rabotaesh";
         }
     }
 
