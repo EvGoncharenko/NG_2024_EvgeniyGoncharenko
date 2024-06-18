@@ -18,12 +18,10 @@ int main ()
         if (zarplata < 100000){
           cout << "Horosho rabotaesh";
         }
-    }
-
-    if (zarplata > 1000000){
+        if (zarplata > 1000000){
         cout << "Da ti milioner!";
+        }
     }
-
     cout << ", no ti molodez!" << endl;
 
 }
