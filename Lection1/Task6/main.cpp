@@ -9,16 +9,16 @@ int main(){
     cout << "Enter size: ";
     cin >> num;
 
-    for(int j=0; j<num+1; j++){
-        for(int i=0; i<num-j; i++){
-            cout << i;
+    for(int index=0; index<num+1; index++){
+        for(int inden=0; inden<num-index; inden++){
+            cout << " " ;
         }
-        for(int s = 0; s < 2*j-1; s++){
+        for(int object = 0; object < 2*index-1; object++){
             cout << "*";
         }
         cout << " " << endl;
     }
-    for(int p=1; p<num; p++){
+    for(int stump=1; stump<num; stump++){
         cout << " ";
     }
     cout << "*";
