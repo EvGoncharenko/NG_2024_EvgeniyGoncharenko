@@ -39,10 +39,13 @@ int main(){
                     case 2:
                         cout << "Suma dla scheta: ";
                         cin >> sum;
-
-                        index[inum] += sum;
-                        cout << "Vash schet popolnen na sumu: " << sum << endl;
-                        cout << "Vash balance: " << index[inum] << endl;
+                        if (sum<0){
+                            cout << "Error" << endl;
+                        }else{
+                            index[inum] += sum;
+                            cout << "Vash schet popolnen na sumu: " << sum << endl;
+                            cout << "Vash balance: " << index[inum] << endl;
+                        }
                     default:
                         break;
                 }
