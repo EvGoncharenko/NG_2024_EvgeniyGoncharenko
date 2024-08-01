@@ -3,15 +3,8 @@
 using namespace std;
 
 int main(){
-    int index[10];
+    int index[10]{};
     int inum , num = 0, sum;
-
-    for (int numbers=0; numbers<10; numbers++) {
-        cout << "Vvedite sumu na chetu: ";
-        cin >> num;
-        index[numbers] = num;
-    }
-    num = 0;
 
     while (num < 4){
         cout << "Operazyi s schetami - 1" << endl << "Informazia o schetah - 2" << endl << "Viyti iz programi - 3" << endl;
